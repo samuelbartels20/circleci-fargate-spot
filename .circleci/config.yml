@@ -10,7 +10,7 @@ jobs:
 
   test-fargatespot:
       docker:
-        - image: cimg/base:stable
+        - image: 576516118645.dkr.ecr.us-east-2.amazonaws.com/api
       steps:
         - aws-cli/setup
         - jq/install
